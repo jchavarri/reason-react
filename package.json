@@ -4,6 +4,7 @@
   "description": "React bindings for Reason",
   "main": "lib/js/src/ReasonReact.js",
   "scripts": {
+    "postinstall": "bsb && bsb -install",
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
